@@ -6,15 +6,15 @@ class Test(object):
         return self._birth
 
     @birth.setter
-    def birth(self,val):
+    def birth(self, val):
         self._birth = val
 
     @property
     def age(self):
-        return 2017-self._birth
+        return 2017 - self._birth
 
 
 t = Test()
-t.birth=2011
+t.birth = 2011
 print(t.birth)
 print(t.age)
